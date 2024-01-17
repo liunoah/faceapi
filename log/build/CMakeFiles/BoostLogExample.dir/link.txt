@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/BoostLogExample.dir/main.cpp.o  -o BoostLogExample -lBoost -llog 

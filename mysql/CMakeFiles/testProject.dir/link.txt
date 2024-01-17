@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/testProject.dir/test.cpp.o  -o testProject -lmysqlcppconn 

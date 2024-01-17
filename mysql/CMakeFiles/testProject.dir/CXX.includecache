@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/project/mysql/test.cpp
+mysql_driver.h
+-
+mysql_connection.h
+-
+cppconn/statement.h
+-
+cppconn/resultset.h
+-
+

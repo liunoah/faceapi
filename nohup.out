@@ -1,0 +1,2879 @@
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-10 02:22:03.279] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:22:03.279] [console] [debug] Database Username: root
+[2024-01-10 02:22:03.279] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:22:03.279] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:22:03.279] [console] [debug] Software Token: 1
+[2024-01-10 02:22:03.279] [console] [debug] Software appPort: 1212
+[2024-01-10 02:22:03.279] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-10 02:22:03) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-10 02:22:03) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-10 02:22:16) [INFO    ] Request: 1.193.169.168:31832 0x564b72c58cc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:22:16) [INFO    ] Response: 0x564b72c58cc0 /software/version 200 0
+(2024-01-10 02:22:32) [INFO    ] Request: 1.193.169.168:31845 0x7fef40000bc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:22:32) [INFO    ] Response: 0x7fef40000bc0 /software/version 200 0
+(2024-01-10 02:22:35) [INFO    ] Request: 1.193.169.168:31845 0x7fef40000bc0 HTTP/1.1 POST /face/setthreshold
+token: null
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:22:35) [INFO    ] Response: 0x7fef40000bc0 /face/setthreshold 200 0
+(2024-01-10 02:22:37) [INFO    ] Exiting.
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-10 02:22:41.873] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:22:41.873] [console] [debug] Database Username: root
+[2024-01-10 02:22:41.873] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:22:41.873] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:22:41.873] [console] [debug] Software Token: 1
+[2024-01-10 02:22:41.873] [console] [debug] Software appPort: 1212
+[2024-01-10 02:22:41.873] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-10 02:22:41) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-10 02:22:41) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-10 02:22:42) [INFO    ] Request: 1.193.169.168:31859 0x555cb4fb0cc0 HTTP/1.1 POST /face/setthreshold
+token: null
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:22:42) [INFO    ] Response: 0x555cb4fb0cc0 /face/setthreshold 200 0
+(2024-01-10 02:22:43) [INFO    ] Request: 1.193.169.168:31859 0x555cb4fb0cc0 HTTP/1.1 POST /face/setthreshold
+token: null
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:22:43) [INFO    ] Response: 0x555cb4fb0cc0 /face/setthreshold 200 0
+(2024-01-10 02:22:46) [INFO    ] Request: 1.193.169.168:31859 0x555cb4fb0cc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:22:46) [INFO    ] Response: 0x555cb4fb0cc0 /software/version 200 0
+(2024-01-10 02:23:07) [INFO    ] Exiting.
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-10 02:23:13.392] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:23:13.392] [console] [debug] Database Username: root
+[2024-01-10 02:23:13.392] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:23:13.393] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:23:13.393] [console] [debug] Software Token: 1
+[2024-01-10 02:23:13.393] [console] [debug] Software appPort: 1212
+[2024-01-10 02:23:13.393] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-10 02:23:13) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-10 02:23:13) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-10 02:23:19) [INFO    ] Request: 1.193.169.168:31894 0x55e9ef248cc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:23:19) [INFO    ] Response: 0x55e9ef248cc0 /software/version 200 0
+(2024-01-10 02:23:20) [INFO    ] Request: 1.193.169.168:31894 0x55e9ef248cc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:23:20) [INFO    ] Response: 0x55e9ef248cc0 /software/version 200 0
+(2024-01-10 02:24:36) [INFO    ] Request: 1.193.169.168:31967 0x7fb4ec000bc0 HTTP/1.1 POST /face/all
+token: null
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:24:36) [INFO    ] Response: 0x7fb4ec000bc0 /face/all 200 0
+(2024-01-10 02:24:39) [INFO    ] Request: 1.193.169.168:31967 0x7fb4ec000bc0 HTTP/1.1 POST /user/login
+Username: user1, Password: pass1
+查询username and password sqlQuery: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+[2024-01-10 02:24:39.766] [console] [debug] sql: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+(2024-01-10 02:24:39) [INFO    ] Response: 0x7fb4ec000bc0 /user/login 200 0
+(2024-01-10 02:24:42) [INFO    ] Request: 1.193.169.168:31967 0x7fb4ec000bc0 HTTP/1.1 POST /user/login
+Username: user1, Password: pass1
+查询username and password sqlQuery: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+[2024-01-10 02:24:42.288] [console] [debug] sql: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+(2024-01-10 02:24:42) [INFO    ] Response: 0x7fb4ec000bc0 /user/login 200 0
+(2024-01-10 02:24:45) [INFO    ] Request: 1.193.169.168:31967 0x7fb4ec000bc0 HTTP/1.1 POST /face/delete
+token: UKs4kmzkYGnYBIXdicHMHW7kfCvfWqZa
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:24:45.230] [console] [debug] sql: select * from faceInfo WHERE cardid = '12223'
+data does not exist
+[2024-01-10 02:24:45.233] [console] [debug] sql: DELETE FROM faceInfo WHERE cardid = '12223'
+SQL Exception1: 
+(2024-01-10 02:24:45) [INFO    ] Response: 0x7fb4ec000bc0 /face/delete 200 0
+(2024-01-10 02:24:52) [INFO    ] Request: 1.193.169.168:31979 0x7fb4ec0021f0 HTTP/1.1 POST /face/add
+token: UKs4kmzkYGnYBIXdicHMHW7kfCvfWqZa
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:24:52.140] [console] [debug] sql: select * from faceInfo WHERE cardid = '12223'
+data exist
+[2024-01-10 02:24:52.144] [console] [debug] sql: INSERT INTO faceInfo (name, gender, cardid, membership, position, idNumber,type,image) VALUES ('zhansan', 'lisi', '12223', '111', '职位', '12223', '111', '222');
+SQL Exception1: 
+(2024-01-10 02:24:52) [INFO    ] Response: 0x7fb4ec0021f0 /face/add 200 0
+(2024-01-10 02:24:54) [INFO    ] Request: 1.193.169.168:31979 0x7fb4ec0021f0 HTTP/1.1 POST /face/update
+token: UKs4kmzkYGnYBIXdicHMHW7kfCvfWqZa
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:24:54.779] [console] [debug] sql: select * from faceInfo WHERE cardid = '12223'
+data does not exist
+[2024-01-10 02:24:54.781] [console] [debug] sql: UPDATE faceInfo SET name = 'zhansan', gender = 'lisi', membership = '111', position = '职位', idNumber = '12223', type = '111', image = '222111/path' WHERE cardid = '12223';
+SQL Exception1: 
+(2024-01-10 02:24:54) [INFO    ] Response: 0x7fb4ec0021f0 /face/update 200 0
+(2024-01-10 02:24:59) [INFO    ] Request: 1.193.169.168:31979 0x7fb4ec0021f0 HTTP/1.1 POST /access
+token: UKs4kmzkYGnYBIXdicHMHW7kfCvfWqZa
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:24:59.641] [console] [debug] sql: SELECT count(*) as count FROM accessSource
+[2024-01-10 02:24:59.656] [console] [debug] sql: SELECT * FROM accessSource LIMIT 0,10
+(2024-01-10 02:24:59) [INFO    ] Response: 0x7fb4ec0021f0 /access 200 0
+(2024-01-10 02:25:04) [INFO    ] Request: 1.193.169.168:31979 0x7fb4ec0021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+sql: SELECT idCode,deviceName, alarmType, alarmTime FROM alarm;
+[2024-01-10 02:25:04.594] [console] [debug] sql: SELECT idCode,deviceName, alarmType, alarmTime FROM alarm;
+(2024-01-10 02:25:04) [ERROR   ] An uncaught exception occurred: MySQL_ResultSet::getString: invalid value of 'columnIndex'
+(2024-01-10 02:25:04) [INFO    ] Response: 0x7fb4ec0021f0 /alarm/live 500 0
+(2024-01-10 02:25:05) [INFO    ] Request: 1.193.169.168:31979 0x7fb4ec0021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+sql: SELECT idCode,deviceName, alarmType, alarmTime FROM alarm;
+[2024-01-10 02:25:05.579] [console] [debug] sql: SELECT idCode,deviceName, alarmType, alarmTime FROM alarm;
+(2024-01-10 02:25:05) [ERROR   ] An uncaught exception occurred: MySQL_ResultSet::getString: invalid value of 'columnIndex'
+(2024-01-10 02:25:05) [INFO    ] Response: 0x7fb4ec0021f0 /alarm/live 500 0
+(2024-01-10 02:25:59) [INFO    ] Request: 14.155.51.81:7325 0x7fb4ec000bc0 HTTP/1.1 POST /user/login
+Username: user1, Password: pass1
+查询username and password sqlQuery: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+[2024-01-10 02:25:59.694] [console] [debug] sql: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+(2024-01-10 02:25:59) [INFO    ] Response: 0x7fb4ec000bc0 /user/login 200 1
+(2024-01-10 02:26:02) [INFO    ] Request: 14.155.51.81:7353 0x7fb4ec0021f0 HTTP/1.1 POST /face/all
+token: YpIlpabO6q232OVY9r884r5JTpjvQEzf
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:26:02.481] [console] [debug] sql: SELECT count(*) as count FROM faceInfo
+(2024-01-10 02:26:02) [INFO    ] Request: 14.155.51.81:7351 0x7fb4ec000bc0 HTTP/1.1 POST /face/faceSum
+invalidTokens: 0
+validTokens: 1
+sql: SELECT COUNT(*) FROM faceInfo;
+[2024-01-10 02:26:02.483] [console] [debug] sql: SELECT COUNT(*) FROM faceInfo;
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-10 02:26:03.370] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:26:03.370] [console] [debug] Database Username: root
+[2024-01-10 02:26:03.370] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:26:03.370] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:26:03.370] [console] [debug] Software Token: 1
+[2024-01-10 02:26:03.370] [console] [debug] Software appPort: 1212
+[2024-01-10 02:26:03.370] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-10 02:26:03) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-10 02:26:03) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-10 02:26:07) [INFO    ] Request: 14.155.51.81:7383 0x563bbebd5cc0 HTTP/1.1 POST /user/logout
+token: YpIlpabO6q232OVY9r884r5JTpjvQEzf
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:26:07) [INFO    ] Response: 0x563bbebd5cc0 /user/logout 200 1
+(2024-01-10 02:26:11) [INFO    ] Request: 14.155.51.81:7415 0x7faad8000bc0 HTTP/1.1 POST /user/login
+Username: user1, Password: pass1
+查询username and password sqlQuery: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+[2024-01-10 02:26:11.369] [console] [debug] sql: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+(2024-01-10 02:26:11) [INFO    ] Response: 0x7faad8000bc0 /user/login 200 1
+(2024-01-10 02:26:13) [INFO    ] Request: 14.155.51.81:7427 0x7faad80021f0 HTTP/1.1 POST /face/all
+(2024-01-10 02:26:13) [INFO    ] Request: 14.155.51.81:7426 0x7faad8000bc0 HTTP/1.1 POST /face/faceSum
+token: oIvifAyUHRoWsthiktUtO3I7GGbEJce1
+invalidTokens: 0
+validTokens: invalidTokens: 1
+0
+validTokens: 1
+[2024-01-10 02:26:13.575] [console] [debug] sql: SELECT count(*) as count FROM faceInfo
+sql: SELECT COUNT(*) FROM faceInfo;
+[2024-01-10 02:26:13.576] [console] [debug] sql: SELECT COUNT(*) FROM faceInfo;
+查询到的记录数为：9
+count: 9
+(2024-01-10 02:26:13) [INFO    ] Response: 0x7faad8000bc0 /face/faceSum 200 1
+SQL Exception1: Lost connection to MySQL server during query
+[2024-01-10 02:26:13.608] [console] [debug] sql: SELECT * FROM faceInfo LIMIT 0,10
+SQL Exception1: MySQL server has gone away
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-10 02:26:14.967] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:26:14.967] [console] [debug] Database Username: root
+[2024-01-10 02:26:14.967] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:26:14.967] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:26:14.967] [console] [debug] Software Token: 1
+[2024-01-10 02:26:14.967] [console] [debug] Software appPort: 1212
+[2024-01-10 02:26:14.967] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-10 02:26:15) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-10 02:26:15) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-10 02:26:23) [INFO    ] Request: 14.155.51.81:7575 0x5594bf621cc0 HTTP/1.1 POST /user/logout
+token: oIvifAyUHRoWsthiktUtO3I7GGbEJce1
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:26:23) [INFO    ] Response: 0x5594bf621cc0 /user/logout 200 1
+(2024-01-10 02:26:27) [INFO    ] Request: 14.155.51.81:7649 0x7fd0dc000bc0 HTTP/1.1 POST /user/login
+Username: user1, Password: pass1
+查询username and password sqlQuery: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+[2024-01-10 02:26:27.353] [console] [debug] sql: SELECT * FROM accessSource WHERE username = 'user1' AND password = 'pass1'
+(2024-01-10 02:26:27) [INFO    ] Response: 0x7fd0dc000bc0 /user/login 200 1
+(2024-01-10 02:26:31) [INFO    ] Request: 14.155.51.81:7706 0x7fd0dc0021f0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+(2024-01-10 02:26:31) [INFO    ] Response: 0x7fd0dc0021f0 /access 200 1
+(2024-01-10 02:27:30) [INFO    ] Request: 1.193.169.168:32125 0x7fd0dc000bc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:27:30) [INFO    ] Response: 0x7fd0dc000bc0 /software/version 200 0
+(2024-01-10 02:27:31) [INFO    ] Request: 1.193.169.168:32125 0x7fd0dc000bc0 HTTP/1.1 GET /software/version
+(2024-01-10 02:27:31) [INFO    ] Response: 0x7fd0dc000bc0 /software/version 200 0
+(2024-01-10 02:27:33) [INFO    ] Request: 1.193.169.168:32125 0x7fd0dc000bc0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:27:33) [INFO    ] Response: 0x7fd0dc000bc0 /access/source 200 0
+(2024-01-10 02:27:34) [INFO    ] Request: 1.193.169.168:32125 0x7fd0dc000bc0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 0
+(2024-01-10 02:27:34) [INFO    ] Response: 0x7fd0dc000bc0 /access/source 200 0
+(2024-01-10 02:27:47) [INFO    ] Request: 14.155.51.81:8438 0x7fd0dc0021f0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+(2024-01-10 02:27:47) [INFO    ] Response: 0x7fd0dc0021f0 /access 200 1
+(2024-01-10 02:28:03) [INFO    ] Request: 14.155.51.81:8604 0x7fd0dc000bc0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+(2024-01-10 02:28:03) [INFO    ] Response: 0x7fd0dc000bc0 /access 200 1
+(2024-01-10 02:28:30) [INFO    ] Request: 14.155.51.81:8854 0x7fd0dc0021f0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:28:30.068] [console] [debug] sql: SELECT count(*) as count FROM accessSource
+[2024-01-10 02:28:30.093] [console] [debug] sql: SELECT * FROM accessSource LIMIT 0,10
+(2024-01-10 02:28:30) [INFO    ] Response: 0x7fd0dc0021f0 /access 200 1
+(2024-01-10 02:29:45) [INFO    ] Request: 14.155.51.81:5497 0x7fd0dc000bc0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:29:45.836] [console] [debug] sql: SELECT count(*) as count FROM accessSource
+[2024-01-10 02:29:45.883] [console] [debug] sql: SELECT * FROM accessSource LIMIT 0,10
+(2024-01-10 02:29:45) [INFO    ] Response: 0x7fd0dc000bc0 /access 200 1
+(2024-01-10 02:29:47) [INFO    ] Request: 14.155.51.81:5528 0x7fd0dc0021f0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:29:47.766] [console] [debug] sql: SELECT count(*) as count FROM accessSource
+[2024-01-10 02:29:47.779] [console] [debug] sql: SELECT * FROM accessSource LIMIT 0,10
+(2024-01-10 02:29:47) [INFO    ] Response: 0x7fd0dc0021f0 /access 200 1
+(2024-01-10 02:29:54) [INFO    ] Request: 14.155.51.81:5579 0x7fd0dc000bc0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 1
+access/source: SELECT * FROM accessSource WHERE  channelNumber = 'channel1';
+[2024-01-10 02:29:54.963] [console] [debug] sql: SELECT * FROM accessSource WHERE  channelNumber = 'channel1';
+(2024-01-10 02:29:54) [INFO    ] Response: 0x7fd0dc000bc0 /access/source 200 1
+(2024-01-10 02:30:10) [INFO    ] Request: 14.155.51.81:5779 0x7fd0dc0021f0 HTTP/1.1 POST /access
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:30:10.779] [console] [debug] sql: SELECT count(*) as count FROM accessSource
+[2024-01-10 02:30:10.790] [console] [debug] sql: SELECT * FROM accessSource LIMIT 0,10
+(2024-01-10 02:30:10) [INFO    ] Response: 0x7fd0dc0021f0 /access 200 1
+(2024-01-10 02:30:22) [INFO    ] Request: 14.155.51.81:5862 0x7fd0dc000bc0 HTTP/1.1 POST /face/faceSum
+invalidTokens: 0
+validTokens: 1
+sql: SELECT COUNT(*) FROM faceInfo;
+[2024-01-10 02:30:22.023] [console] [debug] sql: SELECT COUNT(*) FROM faceInfo;
+查询到的记录数为：9
+count: 9
+(2024-01-10 02:30:22) [INFO    ] Response: 0x7fd0dc000bc0 /face/faceSum 200 1
+(2024-01-10 02:30:22) [INFO    ] Request: 14.155.51.81:5867 0x7fd0dc0021f0 HTTP/1.1 POST /face/all
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:30:22.339] [console] [debug] sql: SELECT count(*) as count FROM faceInfo
+[2024-01-10 02:30:22.362] [console] [debug] sql: SELECT * FROM faceInfo LIMIT 0,10
+(2024-01-10 02:30:22) [INFO    ] Response: 0x7fd0dc0021f0 /face/all 200 1
+(2024-01-10 02:33:42) [INFO    ] Request: 14.155.51.81:7911 0x7fd0dc000bc0 HTTP/1.1 POST /face/all
+token: 9e7KF3XBTacvVTRVR1wYPDFMEuZzPkvl
+invalidTokens: 0
+validTokens: 1
+[2024-01-10 02:33:42.739] [console] [debug] sql: SELECT count(*) as count FROM faceInfo
+(2024-01-10 02:33:42) [INFO    ] Request: 14.155.51.81:7910 0x7fd0dc0021f0 HTTP/1.1 POST /face/faceSum
+invalidTokens: 0
+validTokens: 1
+sql: SELECT COUNT(*) FROM faceInfo;
+[2024-01-10 02:33:42.741] [console] [debug] sql: SELECT COUNT(*) FROM faceInfo;
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:44.495] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:44.495] [console] [debug] Database Username: root
+[2024-01-10 02:33:44.495] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:44.495] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:44.495] [console] [debug] Software Token: 1
+[2024-01-10 02:33:44.495] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:44.495] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:45.534] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:45.534] [console] [debug] Database Username: root
+[2024-01-10 02:33:45.534] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:45.534] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:45.534] [console] [debug] Software Token: 1
+[2024-01-10 02:33:45.534] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:45.534] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:46.600] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:46.600] [console] [debug] Database Username: root
+[2024-01-10 02:33:46.600] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:46.600] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:46.600] [console] [debug] Software Token: 1
+[2024-01-10 02:33:46.600] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:46.600] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:47.640] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:47.641] [console] [debug] Database Username: root
+[2024-01-10 02:33:47.641] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:47.641] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:47.641] [console] [debug] Software Token: 1
+[2024-01-10 02:33:47.641] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:47.641] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:48.693] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:48.696] [console] [debug] Database Username: root
+[2024-01-10 02:33:48.696] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:48.696] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:48.696] [console] [debug] Software Token: 1
+[2024-01-10 02:33:48.696] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:48.696] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:49.754] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:49.754] [console] [debug] Database Username: root
+[2024-01-10 02:33:49.754] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:49.755] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:49.755] [console] [debug] Software Token: 1
+[2024-01-10 02:33:49.755] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:49.755] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:50.784] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:50.784] [console] [debug] Database Username: root
+[2024-01-10 02:33:50.784] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:50.784] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:50.784] [console] [debug] Software Token: 1
+[2024-01-10 02:33:50.784] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:50.784] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:51.830] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:51.830] [console] [debug] Database Username: root
+[2024-01-10 02:33:51.830] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:51.830] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:51.830] [console] [debug] Software Token: 1
+[2024-01-10 02:33:51.830] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:51.830] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:52.881] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:52.881] [console] [debug] Database Username: root
+[2024-01-10 02:33:52.881] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:52.881] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:52.881] [console] [debug] Software Token: 1
+[2024-01-10 02:33:52.881] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:52.881] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:53.924] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:53.924] [console] [debug] Database Username: root
+[2024-01-10 02:33:53.924] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:53.924] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:53.924] [console] [debug] Software Token: 1
+[2024-01-10 02:33:53.924] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:53.924] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:54.970] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:54.970] [console] [debug] Database Username: root
+[2024-01-10 02:33:54.970] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:54.970] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:54.970] [console] [debug] Software Token: 1
+[2024-01-10 02:33:54.970] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:54.970] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:56.021] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:56.021] [console] [debug] Database Username: root
+[2024-01-10 02:33:56.021] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:56.021] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:56.022] [console] [debug] Software Token: 1
+[2024-01-10 02:33:56.022] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:56.022] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:57.051] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:57.051] [console] [debug] Database Username: root
+[2024-01-10 02:33:57.051] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:57.051] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:57.051] [console] [debug] Software Token: 1
+[2024-01-10 02:33:57.051] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:57.051] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:58.095] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:58.095] [console] [debug] Database Username: root
+[2024-01-10 02:33:58.095] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:58.095] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:58.095] [console] [debug] Software Token: 1
+[2024-01-10 02:33:58.095] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:58.095] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:33:59.154] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:33:59.154] [console] [debug] Database Username: root
+[2024-01-10 02:33:59.154] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:33:59.154] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:33:59.154] [console] [debug] Software Token: 1
+[2024-01-10 02:33:59.154] [console] [debug] Software appPort: 9876
+[2024-01-10 02:33:59.154] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:00.179] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:00.179] [console] [debug] Database Username: root
+[2024-01-10 02:34:00.179] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:00.179] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:00.179] [console] [debug] Software Token: 1
+[2024-01-10 02:34:00.179] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:00.179] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:01.227] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:01.227] [console] [debug] Database Username: root
+[2024-01-10 02:34:01.227] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:01.227] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:01.227] [console] [debug] Software Token: 1
+[2024-01-10 02:34:01.227] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:01.227] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:02.261] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:02.261] [console] [debug] Database Username: root
+[2024-01-10 02:34:02.261] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:02.261] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:02.262] [console] [debug] Software Token: 1
+[2024-01-10 02:34:02.262] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:02.262] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:03.309] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:03.309] [console] [debug] Database Username: root
+[2024-01-10 02:34:03.309] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:03.309] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:03.309] [console] [debug] Software Token: 1
+[2024-01-10 02:34:03.309] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:03.309] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:04.350] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:04.350] [console] [debug] Database Username: root
+[2024-01-10 02:34:04.350] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:04.350] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:04.350] [console] [debug] Software Token: 1
+[2024-01-10 02:34:04.350] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:04.350] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:05.404] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:05.404] [console] [debug] Database Username: root
+[2024-01-10 02:34:05.404] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:05.404] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:05.404] [console] [debug] Software Token: 1
+[2024-01-10 02:34:05.404] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:05.404] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:06.442] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:06.443] [console] [debug] Database Username: root
+[2024-01-10 02:34:06.443] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:06.443] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:06.443] [console] [debug] Software Token: 1
+[2024-01-10 02:34:06.443] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:06.443] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:07.491] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:07.491] [console] [debug] Database Username: root
+[2024-01-10 02:34:07.491] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:07.491] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:07.491] [console] [debug] Software Token: 1
+[2024-01-10 02:34:07.491] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:07.491] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:08.533] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:08.533] [console] [debug] Database Username: root
+[2024-01-10 02:34:08.533] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:08.533] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:08.534] [console] [debug] Software Token: 1
+[2024-01-10 02:34:08.534] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:08.534] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:09.585] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:09.585] [console] [debug] Database Username: root
+[2024-01-10 02:34:09.585] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:09.585] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:09.585] [console] [debug] Software Token: 1
+[2024-01-10 02:34:09.586] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:09.586] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:10.608] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:10.608] [console] [debug] Database Username: root
+[2024-01-10 02:34:10.608] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:10.608] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:10.608] [console] [debug] Software Token: 1
+[2024-01-10 02:34:10.608] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:10.608] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:11.657] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:11.657] [console] [debug] Database Username: root
+[2024-01-10 02:34:11.657] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:11.657] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:11.657] [console] [debug] Software Token: 1
+[2024-01-10 02:34:11.657] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:11.657] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:12.714] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:12.714] [console] [debug] Database Username: root
+[2024-01-10 02:34:12.714] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:12.714] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:12.714] [console] [debug] Software Token: 1
+[2024-01-10 02:34:12.714] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:12.714] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:13.753] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:13.753] [console] [debug] Database Username: root
+[2024-01-10 02:34:13.753] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:13.753] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:13.753] [console] [debug] Software Token: 1
+[2024-01-10 02:34:13.753] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:13.753] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:14.799] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:14.799] [console] [debug] Database Username: root
+[2024-01-10 02:34:14.799] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:14.799] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:14.799] [console] [debug] Software Token: 1
+[2024-01-10 02:34:14.799] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:14.799] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:15.828] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:15.828] [console] [debug] Database Username: root
+[2024-01-10 02:34:15.828] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:15.828] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:15.828] [console] [debug] Software Token: 1
+[2024-01-10 02:34:15.828] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:15.828] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:16.870] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:16.870] [console] [debug] Database Username: root
+[2024-01-10 02:34:16.870] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:16.870] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:16.870] [console] [debug] Software Token: 1
+[2024-01-10 02:34:16.870] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:16.870] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:17.903] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:17.903] [console] [debug] Database Username: root
+[2024-01-10 02:34:17.903] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:17.903] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:17.904] [console] [debug] Software Token: 1
+[2024-01-10 02:34:17.904] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:17.904] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:18.947] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:18.947] [console] [debug] Database Username: root
+[2024-01-10 02:34:18.947] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:18.947] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:18.947] [console] [debug] Software Token: 1
+[2024-01-10 02:34:18.947] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:18.947] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:20.033] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:20.033] [console] [debug] Database Username: root
+[2024-01-10 02:34:20.033] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:20.033] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:20.033] [console] [debug] Software Token: 1
+[2024-01-10 02:34:20.033] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:20.033] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:21.098] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:21.098] [console] [debug] Database Username: root
+[2024-01-10 02:34:21.098] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:21.099] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:21.099] [console] [debug] Software Token: 1
+[2024-01-10 02:34:21.099] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:21.099] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:22.117] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:22.117] [console] [debug] Database Username: root
+[2024-01-10 02:34:22.117] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:22.117] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:22.117] [console] [debug] Software Token: 1
+[2024-01-10 02:34:22.117] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:22.117] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:23.158] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:23.158] [console] [debug] Database Username: root
+[2024-01-10 02:34:23.158] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:23.159] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:23.159] [console] [debug] Software Token: 1
+[2024-01-10 02:34:23.159] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:23.159] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:24.213] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:24.213] [console] [debug] Database Username: root
+[2024-01-10 02:34:24.213] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:24.213] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:24.213] [console] [debug] Software Token: 1
+[2024-01-10 02:34:24.213] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:24.213] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:25.295] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:25.295] [console] [debug] Database Username: root
+[2024-01-10 02:34:25.295] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:25.295] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:25.295] [console] [debug] Software Token: 1
+[2024-01-10 02:34:25.295] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:25.295] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:26.352] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:26.352] [console] [debug] Database Username: root
+[2024-01-10 02:34:26.352] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:26.352] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:26.353] [console] [debug] Software Token: 1
+[2024-01-10 02:34:26.353] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:26.353] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:27.402] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:27.402] [console] [debug] Database Username: root
+[2024-01-10 02:34:27.402] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:27.402] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:27.403] [console] [debug] Software Token: 1
+[2024-01-10 02:34:27.403] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:27.403] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:28.441] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:28.441] [console] [debug] Database Username: root
+[2024-01-10 02:34:28.441] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:28.441] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:28.441] [console] [debug] Software Token: 1
+[2024-01-10 02:34:28.441] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:28.441] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:29.492] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:29.492] [console] [debug] Database Username: root
+[2024-01-10 02:34:29.492] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:29.492] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:29.492] [console] [debug] Software Token: 1
+[2024-01-10 02:34:29.492] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:29.492] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:30.538] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:30.538] [console] [debug] Database Username: root
+[2024-01-10 02:34:30.538] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:30.538] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:30.538] [console] [debug] Software Token: 1
+[2024-01-10 02:34:30.538] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:30.538] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:31.572] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:31.572] [console] [debug] Database Username: root
+[2024-01-10 02:34:31.572] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:31.572] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:31.572] [console] [debug] Software Token: 1
+[2024-01-10 02:34:31.572] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:31.572] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:32.624] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:32.624] [console] [debug] Database Username: root
+[2024-01-10 02:34:32.624] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:32.624] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:32.624] [console] [debug] Software Token: 1
+[2024-01-10 02:34:32.624] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:32.624] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:33.673] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:33.673] [console] [debug] Database Username: root
+[2024-01-10 02:34:33.673] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:33.673] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:33.673] [console] [debug] Software Token: 1
+[2024-01-10 02:34:33.673] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:33.673] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:34.712] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:34.712] [console] [debug] Database Username: root
+[2024-01-10 02:34:34.712] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:34.712] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:34.712] [console] [debug] Software Token: 1
+[2024-01-10 02:34:34.712] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:34.712] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:35.758] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:35.758] [console] [debug] Database Username: root
+[2024-01-10 02:34:35.758] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:35.758] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:35.758] [console] [debug] Software Token: 1
+[2024-01-10 02:34:35.758] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:35.758] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:36.840] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:36.840] [console] [debug] Database Username: root
+[2024-01-10 02:34:36.840] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:36.840] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:36.840] [console] [debug] Software Token: 1
+[2024-01-10 02:34:36.840] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:36.840] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:37.876] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:37.876] [console] [debug] Database Username: root
+[2024-01-10 02:34:37.876] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:37.876] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:37.876] [console] [debug] Software Token: 1
+[2024-01-10 02:34:37.876] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:37.877] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:38.934] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:38.934] [console] [debug] Database Username: root
+[2024-01-10 02:34:38.934] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:38.934] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:38.934] [console] [debug] Software Token: 1
+[2024-01-10 02:34:38.934] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:38.934] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:39.970] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:39.970] [console] [debug] Database Username: root
+[2024-01-10 02:34:39.970] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:39.970] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:39.970] [console] [debug] Software Token: 1
+[2024-01-10 02:34:39.970] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:39.970] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:41.035] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:41.035] [console] [debug] Database Username: root
+[2024-01-10 02:34:41.035] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:41.036] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:41.036] [console] [debug] Software Token: 1
+[2024-01-10 02:34:41.036] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:41.036] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:42.082] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:42.082] [console] [debug] Database Username: root
+[2024-01-10 02:34:42.082] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:42.082] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:42.082] [console] [debug] Software Token: 1
+[2024-01-10 02:34:42.082] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:42.082] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:43.122] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:43.122] [console] [debug] Database Username: root
+[2024-01-10 02:34:43.122] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:43.122] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:43.122] [console] [debug] Software Token: 1
+[2024-01-10 02:34:43.122] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:43.122] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:44.178] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:44.178] [console] [debug] Database Username: root
+[2024-01-10 02:34:44.178] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:44.178] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:44.178] [console] [debug] Software Token: 1
+[2024-01-10 02:34:44.179] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:44.179] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:45.259] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:45.259] [console] [debug] Database Username: root
+[2024-01-10 02:34:45.260] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:45.260] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:45.260] [console] [debug] Software Token: 1
+[2024-01-10 02:34:45.260] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:45.260] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:46.319] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:46.320] [console] [debug] Database Username: root
+[2024-01-10 02:34:46.320] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:46.320] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:46.320] [console] [debug] Software Token: 1
+[2024-01-10 02:34:46.320] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:46.320] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:47.343] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:47.343] [console] [debug] Database Username: root
+[2024-01-10 02:34:47.343] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:47.343] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:47.343] [console] [debug] Software Token: 1
+[2024-01-10 02:34:47.344] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:47.344] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:48.362] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:48.362] [console] [debug] Database Username: root
+[2024-01-10 02:34:48.362] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:48.362] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:48.362] [console] [debug] Software Token: 1
+[2024-01-10 02:34:48.362] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:48.362] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:49.411] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:49.411] [console] [debug] Database Username: root
+[2024-01-10 02:34:49.411] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:49.411] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:49.411] [console] [debug] Software Token: 1
+[2024-01-10 02:34:49.411] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:49.411] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:50.468] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:50.468] [console] [debug] Database Username: root
+[2024-01-10 02:34:50.468] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:50.468] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:50.468] [console] [debug] Software Token: 1
+[2024-01-10 02:34:50.468] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:50.468] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:51.515] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:51.515] [console] [debug] Database Username: root
+[2024-01-10 02:34:51.515] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:51.515] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:51.515] [console] [debug] Software Token: 1
+[2024-01-10 02:34:51.515] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:51.516] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:52.563] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:52.563] [console] [debug] Database Username: root
+[2024-01-10 02:34:52.563] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:52.563] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:52.563] [console] [debug] Software Token: 1
+[2024-01-10 02:34:52.563] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:52.563] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:53.613] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:53.613] [console] [debug] Database Username: root
+[2024-01-10 02:34:53.613] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:53.613] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:53.613] [console] [debug] Software Token: 1
+[2024-01-10 02:34:53.614] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:53.614] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:54.649] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:54.650] [console] [debug] Database Username: root
+[2024-01-10 02:34:54.650] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:54.650] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:54.650] [console] [debug] Software Token: 1
+[2024-01-10 02:34:54.650] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:54.650] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:55.692] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:55.692] [console] [debug] Database Username: root
+[2024-01-10 02:34:55.692] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:55.692] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:55.692] [console] [debug] Software Token: 1
+[2024-01-10 02:34:55.692] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:55.692] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:56.737] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:56.737] [console] [debug] Database Username: root
+[2024-01-10 02:34:56.737] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:56.737] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:56.737] [console] [debug] Software Token: 1
+[2024-01-10 02:34:56.737] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:56.737] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:57.791] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:57.791] [console] [debug] Database Username: root
+[2024-01-10 02:34:57.791] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:57.791] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:57.791] [console] [debug] Software Token: 1
+[2024-01-10 02:34:57.791] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:57.791] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:58.840] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:58.840] [console] [debug] Database Username: root
+[2024-01-10 02:34:58.840] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:58.840] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:58.840] [console] [debug] Software Token: 1
+[2024-01-10 02:34:58.840] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:58.840] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:34:59.901] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:34:59.901] [console] [debug] Database Username: root
+[2024-01-10 02:34:59.901] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:34:59.901] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:34:59.901] [console] [debug] Software Token: 1
+[2024-01-10 02:34:59.902] [console] [debug] Software appPort: 9876
+[2024-01-10 02:34:59.902] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:00.965] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:00.965] [console] [debug] Database Username: root
+[2024-01-10 02:35:00.965] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:00.966] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:00.966] [console] [debug] Software Token: 1
+[2024-01-10 02:35:00.966] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:00.966] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:02.064] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:02.064] [console] [debug] Database Username: root
+[2024-01-10 02:35:02.064] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:02.064] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:02.064] [console] [debug] Software Token: 1
+[2024-01-10 02:35:02.064] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:02.064] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:03.101] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:03.101] [console] [debug] Database Username: root
+[2024-01-10 02:35:03.101] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:03.101] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:03.101] [console] [debug] Software Token: 1
+[2024-01-10 02:35:03.101] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:03.101] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:04.143] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:04.143] [console] [debug] Database Username: root
+[2024-01-10 02:35:04.143] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:04.143] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:04.143] [console] [debug] Software Token: 1
+[2024-01-10 02:35:04.143] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:04.143] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:05.183] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:05.183] [console] [debug] Database Username: root
+[2024-01-10 02:35:05.183] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:05.183] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:05.183] [console] [debug] Software Token: 1
+[2024-01-10 02:35:05.183] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:05.183] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:06.230] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:06.230] [console] [debug] Database Username: root
+[2024-01-10 02:35:06.230] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:06.230] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:06.230] [console] [debug] Software Token: 1
+[2024-01-10 02:35:06.230] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:06.231] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:07.275] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:07.275] [console] [debug] Database Username: root
+[2024-01-10 02:35:07.275] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:07.275] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:07.275] [console] [debug] Software Token: 1
+[2024-01-10 02:35:07.275] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:07.276] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:08.317] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:08.317] [console] [debug] Database Username: root
+[2024-01-10 02:35:08.317] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:08.317] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:08.318] [console] [debug] Software Token: 1
+[2024-01-10 02:35:08.318] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:08.318] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:09.364] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:09.364] [console] [debug] Database Username: root
+[2024-01-10 02:35:09.364] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:09.364] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:09.364] [console] [debug] Software Token: 1
+[2024-01-10 02:35:09.364] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:09.364] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:10.403] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:10.403] [console] [debug] Database Username: root
+[2024-01-10 02:35:10.403] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:10.403] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:10.403] [console] [debug] Software Token: 1
+[2024-01-10 02:35:10.403] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:10.403] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:11.435] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:11.435] [console] [debug] Database Username: root
+[2024-01-10 02:35:11.435] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:11.435] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:11.435] [console] [debug] Software Token: 1
+[2024-01-10 02:35:11.435] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:11.435] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:12.491] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:12.491] [console] [debug] Database Username: root
+[2024-01-10 02:35:12.491] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:12.492] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:12.492] [console] [debug] Software Token: 1
+[2024-01-10 02:35:12.492] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:12.492] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:13.538] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:13.538] [console] [debug] Database Username: root
+[2024-01-10 02:35:13.538] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:13.538] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:13.538] [console] [debug] Software Token: 1
+[2024-01-10 02:35:13.538] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:13.538] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:14.588] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:14.588] [console] [debug] Database Username: root
+[2024-01-10 02:35:14.588] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:14.588] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:14.588] [console] [debug] Software Token: 1
+[2024-01-10 02:35:14.588] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:14.588] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:15.637] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:15.637] [console] [debug] Database Username: root
+[2024-01-10 02:35:15.637] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:15.637] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:15.637] [console] [debug] Software Token: 1
+[2024-01-10 02:35:15.637] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:15.637] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:16.694] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:16.694] [console] [debug] Database Username: root
+[2024-01-10 02:35:16.694] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:16.694] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:16.694] [console] [debug] Software Token: 1
+[2024-01-10 02:35:16.694] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:16.694] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:17.726] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:17.726] [console] [debug] Database Username: root
+[2024-01-10 02:35:17.726] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:17.726] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:17.726] [console] [debug] Software Token: 1
+[2024-01-10 02:35:17.726] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:17.726] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  bind: Address already in use
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-10 02:35:18.776] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-10 02:35:18.776] [console] [debug] Database Username: root
+[2024-01-10 02:35:18.776] [console] [debug] Database Password: Admin@123
+[2024-01-10 02:35:18.777] [console] [debug] Software Version: 1.0.0
+[2024-01-10 02:35:18.777] [console] [debug] Software Token: 1
+[2024-01-10 02:35:18.777] [console] [debug] Software appPort: 9876
+[2024-01-10 02:35:18.777] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-10 02:35:18) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:9876 using 4 threads
+(2024-01-10 02:35:18) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-10 02:41:30) [INFO    ] Exiting.
+Server started on port 3000
+MulterError: Unexpected field
+    at wrappedFileFilter (/project/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/project/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/project/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/project/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/project/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/project/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/project/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/project/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+Server started on port 3000
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/project/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/project/app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+Server started on port 3000
+Server started on port 3000
+app.js is not running. Starting...
+Server started on port 3000
+Error: Multipart: Boundary not found
+    at new Multipart (/project/node_modules/busboy/lib/types/multipart.js:233:13)
+    at getInstance (/project/node_modules/busboy/lib/index.js:33:12)
+    at module.exports (/project/node_modules/busboy/lib/index.js:56:10)
+    at multerMiddleware (/project/node_modules/multer/lib/make-middleware.js:28:16)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/project/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/project/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at /project/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
+Error: Multipart: Boundary not found
+    at new Multipart (/project/node_modules/busboy/lib/types/multipart.js:233:13)
+    at getInstance (/project/node_modules/busboy/lib/index.js:33:12)
+    at module.exports (/project/node_modules/busboy/lib/index.js:56:10)
+    at multerMiddleware (/project/node_modules/multer/lib/make-middleware.js:28:16)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/project/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/project/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at /project/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
+Error: Multipart: Boundary not found
+    at new Multipart (/project/node_modules/busboy/lib/types/multipart.js:233:13)
+    at getInstance (/project/node_modules/busboy/lib/index.js:33:12)
+    at module.exports (/project/node_modules/busboy/lib/index.js:56:10)
+    at multerMiddleware (/project/node_modules/multer/lib/make-middleware.js:28:16)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/project/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/project/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at /project/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
+Error: Multipart: Boundary not found
+    at new Multipart (/project/node_modules/busboy/lib/types/multipart.js:233:13)
+    at getInstance (/project/node_modules/busboy/lib/index.js:33:12)
+    at module.exports (/project/node_modules/busboy/lib/index.js:56:10)
+    at multerMiddleware (/project/node_modules/multer/lib/make-middleware.js:28:16)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/project/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/project/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at /project/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
+Error: Multipart: Boundary not found
+    at new Multipart (/project/node_modules/busboy/lib/types/multipart.js:233:13)
+    at getInstance (/project/node_modules/busboy/lib/index.js:33:12)
+    at module.exports (/project/node_modules/busboy/lib/index.js:56:10)
+    at multerMiddleware (/project/node_modules/multer/lib/make-middleware.js:28:16)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/project/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/project/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at /project/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
+Error: Multipart: Boundary not found
+    at new Multipart (/project/node_modules/busboy/lib/types/multipart.js:233:13)
+    at getInstance (/project/node_modules/busboy/lib/index.js:33:12)
+    at module.exports (/project/node_modules/busboy/lib/index.js:56:10)
+    at multerMiddleware (/project/node_modules/multer/lib/make-middleware.js:28:16)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/project/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/project/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/project/node_modules/express/lib/router/layer.js:95:5)
+    at /project/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
+app.js is not running. Starting...
+Server started on port 3000

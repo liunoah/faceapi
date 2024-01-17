@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/project/log/main.cpp
+boost/log/core.hpp
+-
+boost/log/trivial.hpp
+-
+boost/log/expressions.hpp
+-
+boost/log/utility/setup/console.hpp
+-
+boost/log/utility/setup/file.hpp
+-
+

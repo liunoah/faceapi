@@ -1,0 +1,3 @@
+/project/log/build/CMakeFiles/rebuild_cache.dir
+/project/log/build/CMakeFiles/SpdlogExample.dir
+/project/log/build/CMakeFiles/edit_cache.dir

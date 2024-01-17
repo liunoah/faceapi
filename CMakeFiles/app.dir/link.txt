@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/token.cpp.o  -o app -lmysqlcppconn -lpthread /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so -lpthread 

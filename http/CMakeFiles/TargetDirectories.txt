@@ -1,0 +1,3 @@
+/project/http/CMakeFiles/rebuild_cache.dir
+/project/http/CMakeFiles/MyApp.dir
+/project/http/CMakeFiles/edit_cache.dir

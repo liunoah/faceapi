@@ -1,0 +1,8 @@
+[2023-12-19 14:55:31.205] [file] [info] This is a log message to file.
+[2023-12-19 14:58:15.926] [file] [info] This is a log message to file.
+[2023-12-19 14:59:21.031] [file] [info] This is a log message to file.
+[2023-12-19 15:00:23.855] [file] [info] This is a log message to file.
+[2023-12-19 15:02:21.366] [file] [info] This is a log message to file.
+[2023-12-19 15:02:21.366] [file] [debug] This is a log message to file.
+[2023-12-19 15:07:23.909] [file] [info] This is a log message to file.
+[2023-12-19 15:07:23.909] [file] [debug] This is a log message to file.

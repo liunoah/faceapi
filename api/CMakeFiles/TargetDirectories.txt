@@ -1,0 +1,3 @@
+/project/api/CMakeFiles/rebuild_cache.dir
+/project/api/CMakeFiles/testProject.dir
+/project/api/CMakeFiles/edit_cache.dir

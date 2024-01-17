@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/myapp.dir/main.cpp.o  -o myapp /usr/lib/x86_64-linux-gnu/libcrypto.so 

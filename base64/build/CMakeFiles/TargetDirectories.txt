@@ -1,0 +1,3 @@
+/project/base64/build/CMakeFiles/rebuild_cache.dir
+/project/base64/build/CMakeFiles/testProject.dir
+/project/base64/build/CMakeFiles/edit_cache.dir
