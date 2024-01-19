@@ -1,9 +1,16 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
+const dotenv = require('dotenv');
+const fs = require('fs');
 
 const app = express();
+// 加载配置文件
+dotenv.config({ path: 'config.ini' });
 
+// 读取配置项
+const uploadIp  = process.env.ip;
+console.log('Upload IP:', uploadIp);
 // 设置存储引擎
 const storage = multer.diskStorage({
 //   destination: './uploads', // 设置文件保存的目录
