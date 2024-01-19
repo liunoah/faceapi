@@ -102,7 +102,7 @@ int common_shell(const std::string& path, const std::string& name) {
     }
     
     // 构建Shell命令
-    std::string command = "curl --location 'http://127.0.0.1:9876/faceadd' \
+    std::string command = "curl --location 'http://127.0.0.1:9876/addface' \
 --header 'Content-Type: application/json' \
 --data '{\"path\":\"" + path + "\",\"name\":\"" + name + "\"}'";
     
