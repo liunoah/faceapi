@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/project/main.cpp" "/project/CMakeFiles/testProject.dir/main.cpp.o"
-  "/project/token.cpp" "/project/CMakeFiles/testProject.dir/token.cpp.o"
+  "/faceapi/main.cpp" "/faceapi/CMakeFiles/testProject.dir/main.cpp.o"
+  "/faceapi/token.cpp" "/faceapi/CMakeFiles/testProject.dir/token.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

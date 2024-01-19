@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /project
+CMAKE_SOURCE_DIR = /faceapi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /project
+CMAKE_BINARY_DIR = /faceapi
 
 #=============================================================================
 # Target rules for target CMakeFiles/testProject.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /project
 CMakeFiles/testProject.dir/all:
 	$(MAKE) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/depend
 	$(MAKE) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/project/CMakeFiles --progress-num=1,2,3 "Built target testProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/faceapi/CMakeFiles --progress-num=1,2,3 "Built target testProject"
 .PHONY : CMakeFiles/testProject.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/testProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /project/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /faceapi/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /project/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /faceapi/CMakeFiles 0
 .PHONY : CMakeFiles/testProject.dir/rule
 
 # Convenience name for target.

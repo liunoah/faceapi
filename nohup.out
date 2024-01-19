@@ -2877,3 +2877,23 @@ Error: Multipart: Boundary not found
     at Function.process_params (/project/node_modules/express/lib/router/index.js:346:12)
 app.js is not running. Starting...
 Server started on port 3000
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 9876
+log level: debug
+[2024-01-19 12:53:30.543] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-19 12:53:30.543] [console] [debug] Database Username: root
+[2024-01-19 12:53:30.543] [console] [debug] Database Password: Admin@123
+[2024-01-19 12:53:30.543] [console] [debug] Software Version: 1.0.0
+[2024-01-19 12:53:30.543] [console] [debug] Software Token: 1
+[2024-01-19 12:53:30.544] [console] [debug] Software appPort: 9876
+[2024-01-19 12:53:30.544] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-19 12:53:30) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:9876 using 4 threads
+(2024-01-19 12:53:30) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+Upload IP: 192.168.1.44
+Server started on port 3000
+(2024-01-19 12:53:35) [INFO    ] Exiting.

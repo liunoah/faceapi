@@ -1,3 +1,3 @@
-/project/CMakeFiles/rebuild_cache.dir
-/project/CMakeFiles/testProject.dir
-/project/CMakeFiles/edit_cache.dir
+/faceapi/CMakeFiles/rebuild_cache.dir
+/faceapi/CMakeFiles/testProject.dir
+/faceapi/CMakeFiles/edit_cache.dir

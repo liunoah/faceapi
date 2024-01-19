@@ -27,7 +27,7 @@ const upload = multer({ storage: storage });
 
 // 处理文件上传的POST请求
 app.post('/upload', upload.single('file'), (req, res) => {
-  const url = "http://23.225.151.138/files/image/";
+  const url = "http://" + uploadIp +"/files/image/";
   if (!req.file) {
   return res.status(400).send('No file uploaded.');
   }

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/project/main.cpp
+/faceapi/main.cpp
 mysql_driver.h
 -
 mysql_connection.h
@@ -22,7 +22,7 @@ iostream
 crow.h
 -
 token.h
-/project/token.h
+/faceapi/token.h
 random
 -
 string
@@ -38,9 +38,9 @@ fstream
 string.h
 -
 
-/project/token.cpp
+/faceapi/token.cpp
 token.h
-/project/token.h
+/faceapi/token.h
 string
 -
 unordered_set
@@ -52,7 +52,7 @@ random
 string
 -
 
-/project/token.h
+/faceapi/token.h
 string
 -
 
