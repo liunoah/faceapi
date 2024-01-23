@@ -105,6 +105,7 @@ int common_shell(const std::string& path, const std::string& name) {
     std::string command = "curl --location 'http://127.0.0.1:9876/addface' \
 --header 'Content-Type: application/json' \
 --data '{\"path\":\"" + path + "\",\"name\":\"" + name + "\"}'";
+    std::cout << "curl command." << command << std::endl;
     
     // 创建C风格的字符串
     const char* cmd = command.c_str();
@@ -1426,6 +1427,7 @@ crow::json::wvalue showAllAlarmHandler(const crow::request &req)
         response_json["alarms"][i]["alarmId"] = res->getString("alarmId");
         response_json["alarms"][i]["name"] = res->getString("name");
         response_json["alarms"][i]["image"] = res->getString("image");
+        response_json["alarms"][i]["type"] = res->getString("type");
         response_json["alarms"][i]["reservation1"] = res->getString("reservation1");
         response_json["alarms"][i]["reservation2"] = res->getString("reservation2");
     }
@@ -2518,6 +2520,7 @@ int main()
                                                                 std::string idCode;
                                                                 std::string level;
                                                                 std::string image;
+                                                                std::string type;
                                                                 std::string reservation1;
                                                                 std::string reservation2;
                                     
@@ -2534,6 +2537,7 @@ int main()
                                                                     idCode = json["idCode"].s();
                                                                     level = json["level"].s();
                                                                     image = json["image"].s();
+                                                                    type = json["type"].s();
                                                                     reservation1 = json["reservation1"].s();
                                                                     reservation2 = json["reservation2"].s();
                                                                 // 在这里继续处理获取到的字段值
@@ -2545,7 +2549,7 @@ int main()
                                                                     return crow::response(response);
                                                                 };
                                                             
-                                                            std::string sqlQuery = "INSERT INTO alarm (userToken, appToken, deviceId, deviceName, alarmType, alarmTime, videoUrl, alarmId, name, idCode, level, image, reservation1, reservation2) VALUES ('"
+                                                            std::string sqlQuery = "INSERT INTO alarm (userToken, appToken, deviceId, deviceName, alarmType, alarmTime, videoUrl, alarmId, name, idCode, level, image, reservation1, reservation2,type) VALUES ('"
                                                             + userToken + "', '"
                                                             + appToken + "', '"
                                                             + deviceId + "', '"
@@ -2559,7 +2563,8 @@ int main()
                                                             + level + "', '"
                                                             + image + "', '"
                                                             + reservation1 + "', '"
-                                                            + reservation2 + "');";
+                                                            + reservation2 + "', '"
+                                                            + type + "');";
 
                                                             std::cout << "sql: " << sqlQuery << std::endl;
                                                             
@@ -2628,6 +2633,7 @@ int main()
                                                                         response["alarm"]["name"] = res->getString("name");
                                                                         response["alarm"]["level"] = res->getInt("level");
                                                                         response["alarm"]["image"] = res->getInt("image");
+                                                                        response["alarm"]["type"] = res->getInt("type");
                                                                         response["alarm"]["reservation1"] = res->getInt("reservation1");
                                                                         response["alarm"]["reservation2"] = res->getInt("reservation2");
                                                                     } catch (const std::exception& e) {

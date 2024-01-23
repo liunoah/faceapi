@@ -48,6 +48,7 @@ CREATE TABLE alarm (
     alarmType VARCHAR(255),
     alarmTime DATETIME,
     videoUrl VARCHAR(255),
+    type VARCHAR(255),
     alarmId VARCHAR(255),
     name VARCHAR(255),
     idCode VARCHAR(255),
@@ -58,11 +59,11 @@ CREATE TABLE alarm (
 );
 
 -- 插入虚拟数据
-INSERT INTO alarm (appToken, userToken, deviceId, deviceName, alarmType, alarmTime, videoUrl, alarmId, name, idCode, level, image, reservation1, reservation2)
+INSERT INTO alarm (appToken, userToken, deviceId, deviceName, alarmType, alarmTime, videoUrl, alarmId, name, idCode, level, image, reservation1, reservation2,type)
 VALUES
-('abc123', 'xyz789', 'device001', 'Device 1', 'Fire Alarm', '2022-01-01 09:00:00', 'https://example.com/video001', 'ALM001', 'John Doe', 'ID123456', "高", NULL, 'Reserve1', 'Reserve2'),
-('def456', 'uvw456', 'device002', 'Device 2', 'Burglary Alarm', '2022-01-02 14:30:00', 'https://example.com/video002', 'ALM002', 'Jane Smith', 'ID789012', "中", NULL, 'Reserve3', 'Reserve4'),
-('ghi789', 'mno123', 'device003', 'Device 3', 'Gas Leak Alarm', '2022-01-03 17:45:00', 'https://example.com/video003', 'ALM003', 'David Johnson', 'ID345678', "低", NULL, 'Reserve5', 'Reserve6');
+('abc123', 'xyz789', 'device001', 'Device 1', 'Fire Alarm', '2022-01-01 09:00:00', 'https://example.com/video001', 'ALM001', 'John Doe', 'ID123456', "高", NULL, 'Reserve1', 'Reserve2', '白名单'),
+('def456', 'uvw456', 'device002', 'Device 2', 'Burglary Alarm', '2022-01-02 14:30:00', 'https://example.com/video002', 'ALM002', 'Jane Smith', 'ID789012', "中", NULL, 'Reserve3', 'Reserve4','临时人员'),
+('ghi789', 'mno123', 'device003', 'Device 3', 'Gas Leak Alarm', '2022-01-03 17:45:00', 'https://example.com/video003', 'ALM003', 'David Johnson', 'ID345678', "低", NULL, 'Reserve5', 'Reserve6',"黑名单");
 --创建用户表
 CREATE TABLE user (
     id INT AUTO_INCREMENT PRIMARY KEY,

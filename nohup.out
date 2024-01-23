@@ -2897,3 +2897,834 @@ Connected to MySQL SUCCESS!
 Upload IP: 192.168.1.44
 Server started on port 3000
 (2024-01-19 12:53:35) [INFO    ] Exiting.
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-22 03:12:38.642] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-22 03:12:38.642] [console] [debug] Database Username: root
+[2024-01-22 03:12:38.642] [console] [debug] Database Password: Admin@123
+[2024-01-22 03:12:38.642] [console] [debug] Software Version: 1.0.0
+[2024-01-22 03:12:38.642] [console] [debug] Software Token: 1
+[2024-01-22 03:12:38.642] [console] [debug] Software appPort: 1212
+[2024-01-22 03:12:38.642] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-22 03:12:38) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-22 03:12:38) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+Upload IP: 192.168.1.44
+Server started on port 3000
+(2024-01-22 03:12:40) [INFO    ] Exiting.
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-22 03:12:47.054] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-22 03:12:47.054] [console] [debug] Database Username: root
+[2024-01-22 03:12:47.054] [console] [debug] Database Password: Admin@123
+[2024-01-22 03:12:47.054] [console] [debug] Software Version: 1.0.0
+[2024-01-22 03:12:47.054] [console] [debug] Software Token: 1
+[2024-01-22 03:12:47.054] [console] [debug] Software appPort: 1212
+[2024-01-22 03:12:47.054] [console] [debug] log level: debug
+app.js is not running. Starting...
+Connected to MySQL SUCCESS!
+(2024-01-22 03:12:47) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-22 03:12:47) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+Upload IP: 192.168.1.44
+Server started on port 3000
+(2024-01-22 03:13:13) [INFO    ] Request: 106.11.31.27:19291 0x5606787c2d90 HTTP/1.1 POST /user/login
+Username: admin, Password: admin
+查询username and password sqlQuery: SELECT * FROM user WHERE username = 'admin' AND password = 'admin'
+[2024-01-22 03:13:13.122] [console] [debug] sql: SELECT * FROM user WHERE username = 'admin' AND password = 'admin'
+(2024-01-22 03:13:13) [INFO    ] Response: 0x5606787c2d90 /user/login 200 1
+(2024-01-22 03:13:13) [INFO    ] Request: 106.11.31.27:3384 0x7f3c50000bc0 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:13:13.834] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:13:13.876] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:13:13) [INFO    ] Response: 0x7f3c50000bc0 /face/all 200 1
+(2024-01-22 03:13:23) [INFO    ] Request: 106.11.31.27:23677 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:13:23.035] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:13:23.047] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:13:23) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:13:42) [INFO    ] Request: 106.11.31.27:21688 0x7f3c50000bc0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:13:42.701] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-22 03:13:42.708] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-22 03:13:42) [INFO    ] Response: 0x7f3c50000bc0 /video/getUser 200 1
+(2024-01-22 03:13:43) [INFO    ] Request: 106.11.31.27:15114 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:13:43.446] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:13:43.471] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:13:43) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:13:57) [INFO    ] Request: 106.11.31.27:20400 0x7f3c50000bc0 HTTP/1.1 POST /video/deleteUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:13:57.546] [console] [debug] sql: select * from user WHERE cardid = '411103199811260037'
+data does not exist
+[2024-01-22 03:13:57.548] [console] [debug] sql: DELETE FROM user WHERE cardid = '411103199811260037';
+SQL Exception1: 
+(2024-01-22 03:13:57) [INFO    ] Response: 0x7f3c50000bc0 /video/deleteUser 200 1
+(2024-01-22 03:13:57) [INFO    ] Request: 106.11.31.27:18441 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:13:57.988] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:13:58.002] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:13:58) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:14:00) [INFO    ] Request: 106.11.31.27:26163 0x7f3c50000bc0 HTTP/1.1 POST /video/deleteUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:14:00.079] [console] [debug] sql: select * from user WHERE cardid = '545454545454441'
+data does not exist
+[2024-01-22 03:14:00.082] [console] [debug] sql: DELETE FROM user WHERE cardid = '545454545454441';
+SQL Exception1: 
+(2024-01-22 03:14:00) [INFO    ] Response: 0x7f3c50000bc0 /video/deleteUser 200 1
+(2024-01-22 03:14:00) [INFO    ] Request: 106.11.31.27:3115 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:14:00.482] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:14:00.493] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:14:00) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:14:04) [INFO    ] Request: 106.11.31.27:17236 0x7f3c50000bc0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:14:04.256] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-22 03:14:04.258] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-22 03:14:04) [INFO    ] Response: 0x7f3c50000bc0 /video/getUser 200 1
+(2024-01-22 03:14:04) [INFO    ] Request: 106.11.31.27:45979 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:14:04.984] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:14:04.998] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:14:04) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:16:51) [INFO    ] Request: 106.11.31.27:61623 0x7f3c50000bc0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:16:51.800] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:16:51.817] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:16:51) [INFO    ] Response: 0x7f3c50000bc0 /video/getUser 200 1
+(2024-01-22 03:17:17) [INFO    ] Request: 106.11.31.27:48702 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:17:17.608] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-22 03:17:17.612] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-22 03:17:17) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:17:18) [INFO    ] Request: 106.11.31.27:44426 0x7f3c50000bc0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:17:18.305] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:17:18.314] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:17:18) [INFO    ] Response: 0x7f3c50000bc0 /video/getUser 200 1
+(2024-01-22 03:18:03) [INFO    ] Request: 106.11.31.27:52415 0x7f3c500021f0 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:18:03.897] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:18:03.918] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:18:03) [INFO    ] Response: 0x7f3c500021f0 /access 200 1
+(2024-01-22 03:18:04) [INFO    ] Request: 106.11.31.27:15197 0x7f3c50000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:18:04.369] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-22 03:18:04.398] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:18:04) [INFO    ] Response: 0x7f3c50000bc0 /alarm/live 200 1
+(2024-01-22 03:18:06) [INFO    ] Request: 106.11.31.27:8788 0x7f3c500021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:18:06.374] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-22 03:18:06.396] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:18:06) [INFO    ] Response: 0x7f3c500021f0 /alarm/live 200 1
+(2024-01-22 03:18:07) [INFO    ] Request: 106.11.31.27:20344 0x7f3c50000bc0 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:18:07.931] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:18:07.946] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:18:07) [INFO    ] Response: 0x7f3c50000bc0 /face/all 200 1
+(2024-01-22 03:19:07) [INFO    ] Request: 106.11.31.27:3578 0x7f3c500021f0 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:19:07.700] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:19:07.741] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:19:07) [INFO    ] Response: 0x7f3c500021f0 /face/all 200 1
+(2024-01-22 03:19:08) [INFO    ] Request: 106.11.31.27:54485 0x7f3c50000bc0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:19:08.899] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:19:08.910] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:19:08) [INFO    ] Response: 0x7f3c50000bc0 /video/getUser 200 1
+(2024-01-22 03:19:09) [INFO    ] Request: 106.11.31.27:9576 0x7f3c500021f0 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:19:09.471] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:19:09.496] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:19:09) [INFO    ] Response: 0x7f3c500021f0 /access 200 1
+(2024-01-22 03:19:15) [INFO    ] Request: 106.11.31.27:24458 0x7f3c50000bc0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 1
+access/source: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+[2024-01-22 03:19:15.686] [console] [debug] sql: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+(2024-01-22 03:19:15) [INFO    ] Response: 0x7f3c50000bc0 /access/source 200 1
+(2024-01-22 03:19:23) [INFO    ] Request: 106.11.31.27:7040 0x7f3c500021f0 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:19:23.839] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:19:23.859] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:19:23) [INFO    ] Response: 0x7f3c500021f0 /access 200 1
+(2024-01-22 03:19:26) [INFO    ] Request: 106.11.31.27:31393 0x7f3c50000bc0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 1
+access/source: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+[2024-01-22 03:19:26.400] [console] [debug] sql: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+(2024-01-22 03:19:26) [INFO    ] Response: 0x7f3c50000bc0 /access/source 200 1
+(2024-01-22 03:21:01) [INFO    ] Request: 106.11.31.27:47172 0x7f3c500021f0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 1
+access/source: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+[2024-01-22 03:21:01.052] [console] [debug] sql: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+(2024-01-22 03:21:01) [INFO    ] Response: 0x7f3c500021f0 /access/source 200 1
+(2024-01-22 03:22:48) [INFO    ] Request: 106.11.31.27:50616 0x7f3c50000bc0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 1
+access/source: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+[2024-01-22 03:22:48.143] [console] [debug] sql: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+(2024-01-22 03:22:48) [INFO    ] Response: 0x7f3c50000bc0 /access/source 200 1
+(2024-01-22 03:22:50) [INFO    ] Request: 106.11.31.27:18441 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:22:50.505] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-22 03:22:50.507] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-22 03:22:50) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:22:51) [INFO    ] Request: 106.11.31.27:64556 0x7f3c50000bc0 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:22:51.195] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:22:51.205] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:22:51) [INFO    ] Response: 0x7f3c50000bc0 /access 200 1
+(2024-01-22 03:22:53) [INFO    ] Request: 106.11.31.27:10362 0x7f3c500021f0 HTTP/1.1 POST /access/source
+invalidTokens: 0
+validTokens: 1
+access/source: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+[2024-01-22 03:22:53.619] [console] [debug] sql: SELECT * FROM accessSource WHERE  channelNumber = '123123123123';
+(2024-01-22 03:22:53) [INFO    ] Response: 0x7f3c500021f0 /access/source 200 1
+(2024-01-22 03:23:03) [INFO    ] Request: 106.11.31.27:4366 0x7f3c50000bc0 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:03.068] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:23:03.106] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:03) [INFO    ] Response: 0x7f3c50000bc0 /access 200 1
+(2024-01-22 03:23:44) [INFO    ] Request: 106.11.31.27:57191 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:44.664] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:23:44.679] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:44) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:23:46) [INFO    ] Request: 106.11.31.27:38193 0x7f3c50000bc0 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:46.200] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:23:46.206] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:46) [INFO    ] Response: 0x7f3c50000bc0 /face/all 200 1
+(2024-01-22 03:23:46) [INFO    ] Request: 106.11.31.27:56601 0x7f3c500021f0 HTTP/1.1 GET /software/version
+(2024-01-22 03:23:46) [INFO    ] Response: 0x7f3c500021f0 /software/version 200 1
+(2024-01-22 03:23:46) [INFO    ] Request: 106.11.31.27:42198 0x7f3c50000bc0 HTTP/1.1 POST /face/faceSum
+(2024-01-22 03:23:46) [INFO    ] Request: 106.11.31.27:42203 0x7f3c500021f0 HTTP/1.1 POST /software/getinfo
+invalidTokens: 0
+validTokens: 1
+sql: SELECT COUNT(*) FROM faceInfo;
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+[2024-01-22 03:23:46.396] [console] [debug] sql: SELECT COUNT(*) FROM faceInfo;
+invalidTokens: 0
+validTokens: 1
+设置阈值0.5
+设置设置频率2
+(2024-01-22 03:23:46) [INFO    ] Response: 0x7f3c500021f0 /software/getinfo 200 1
+查询到的记录数为：7
+count: 7
+(2024-01-22 03:23:46) [INFO    ] Response: 0x7f3c50000bc0 /face/faceSum 200 1
+(2024-01-22 03:23:47) [INFO    ] Request: 106.11.31.27:5715 0x7f3c50003980 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:47.564] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:23:47.580] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:47) [INFO    ] Response: 0x7f3c50003980 /access 200 1
+(2024-01-22 03:23:48) [INFO    ] Request: 106.11.31.27:4811 0x7f3c500021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:48.745] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-22 03:23:48.763] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:48) [INFO    ] Response: 0x7f3c500021f0 /alarm/live 200 1
+(2024-01-22 03:23:50) [INFO    ] Request: 106.11.31.27:12181 0x7f3c50003930 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:50.674] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:23:50.684] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:50) [INFO    ] Response: 0x7f3c50003930 /video/getUser 200 1
+(2024-01-22 03:23:52) [INFO    ] Request: 106.11.31.27:58930 0x7f3c500021f0 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:23:52.416] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:23:52.427] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:23:52) [INFO    ] Response: 0x7f3c500021f0 /face/all 200 1
+(2024-01-22 03:24:02) [INFO    ] Request: 106.11.31.27:11689 0x7f3c50003930 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:02.405] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:24:02.424] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:02) [INFO    ] Response: 0x7f3c50003930 /face/all 200 1
+(2024-01-22 03:24:02) [INFO    ] Request: 106.11.31.27:11059 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:02.942] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:24:02.951] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:02) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:24:10) [INFO    ] Request: 106.11.31.27:21147 0x7f3c50003930 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:10.133] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:24:10.145] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:10) [INFO    ] Response: 0x7f3c50003930 /video/getUser 200 1
+(2024-01-22 03:24:10) [INFO    ] Request: 106.11.31.27:10997 0x7f3c500021f0 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:10.619] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:24:10.635] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:10) [INFO    ] Response: 0x7f3c500021f0 /access 200 1
+(2024-01-22 03:24:13) [INFO    ] Request: 106.11.31.27:10329 0x7f3c50003930 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:13.117] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:24:13.132] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:13) [INFO    ] Response: 0x7f3c50003930 /access 200 1
+(2024-01-22 03:24:13) [INFO    ] Request: 106.11.31.27:15610 0x7f3c500021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:13.626] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-22 03:24:13.637] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:13) [INFO    ] Response: 0x7f3c500021f0 /alarm/live 200 1
+(2024-01-22 03:24:25) [INFO    ] Request: 106.11.31.27:3579 0x7f3c50003930 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:25.961] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-22 03:24:25.977] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:25) [INFO    ] Response: 0x7f3c50003930 /alarm/live 200 1
+(2024-01-22 03:24:26) [INFO    ] Request: 106.11.31.27:37806 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:24:26.885] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-22 03:24:26.901] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:24:26) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 200 1
+(2024-01-22 03:25:25) [INFO    ] Request: 106.11.31.27:23558 0x7f3c50003930 HTTP/1.1 POST /access
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:25:25.154] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-22 03:25:25.180] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:25:25) [INFO    ] Response: 0x7f3c50003930 /access 200 1
+(2024-01-22 03:25:27) [INFO    ] Request: 106.11.31.27:51822 0x7f3c500021f0 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:25:27.120] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:25:27.145] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:25:27) [INFO    ] Response: 0x7f3c500021f0 /face/all 200 1
+(2024-01-22 03:25:28) [INFO    ] Request: 106.11.31.27:47992 0x7f3c50003930 HTTP/1.1 POST /face/all
+token: p6CzPbgUvPKaySiY7dUNO0TBk9geIoeH
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:25:28.506] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-22 03:25:28.536] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:25:28) [INFO    ] Response: 0x7f3c50003930 /face/all 200 1
+(2024-01-22 03:25:29) [INFO    ] Request: 106.11.31.27:44761 0x7f3c500021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-22 03:25:29.420] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-22 03:25:29.430] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-22 03:25:29) [INFO    ] Response: 0x7f3c500021f0 /alarm/live 200 1
+app.js is not running. Starting...
+Upload IP: 192.168.1.44
+Server started on port 3000
+(2024-01-23 12:19:16) [INFO    ] Request: 120.85.196.184:6614 0x7f3c50003930 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:19:16) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:16) [INFO    ] Response: 0x7f3c50003930 /video/getUser 500 1
+(2024-01-23 12:19:35) [INFO    ] Request: 120.85.196.184:6942 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:19:35) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:35) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 500 1
+(2024-01-23 12:19:43) [INFO    ] Request: 120.85.196.184:6993 0x7f3c50003930 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:19:43) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:43) [INFO    ] Response: 0x7f3c50003930 /video/getUser 500 1
+(2024-01-23 12:19:43) [INFO    ] Request: 120.85.196.184:6995 0x7f3c500021f0 HTTP/1.1 POST /face/faceSum
+(2024-01-23 12:19:43) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:43) [INFO    ] Response: 0x7f3c500021f0 /face/faceSum 500 1
+(2024-01-23 12:19:43) [INFO    ] Request: 120.85.196.184:6996 0x7f3c50003930 HTTP/1.1 POST /software/getinfo
+(2024-01-23 12:19:43) [INFO    ] Response: 0x7f3c50003930 /software/getinfo 200 1
+(2024-01-23 12:19:43) [INFO    ] Request: 120.85.196.184:6997 0x7f3c50004df0 HTTP/1.1 GET /software/version
+(2024-01-23 12:19:43) [INFO    ] Response: 0x7f3c50004df0 /software/version 200 1
+(2024-01-23 12:19:45) [INFO    ] Request: 120.85.196.184:6998 0x7f3c500021f0 HTTP/1.1 POST /alarm/live
+(2024-01-23 12:19:45) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:45) [INFO    ] Response: 0x7f3c500021f0 /alarm/live 500 1
+(2024-01-23 12:19:47) [INFO    ] Request: 120.85.196.184:7000 0x7f3c50003930 HTTP/1.1 POST /access
+(2024-01-23 12:19:47) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:47) [INFO    ] Response: 0x7f3c50003930 /access 500 1
+(2024-01-23 12:19:51) [INFO    ] Request: 120.85.196.184:7018 0x7f3c500021f0 HTTP/1.1 POST /access
+(2024-01-23 12:19:51) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:19:51) [INFO    ] Response: 0x7f3c500021f0 /access 500 1
+(2024-01-23 12:20:10) [INFO    ] Request: 120.85.196.184:7036 0x7f3c50003930 HTTP/1.1 POST /alarm/live
+(2024-01-23 12:20:10) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:20:10) [INFO    ] Response: 0x7f3c50003930 /alarm/live 500 1
+(2024-01-23 12:21:38) [INFO    ] Request: 1.193.171.218:2654 0x7f3c500021f0 HTTP/1.1 GET /software/version
+(2024-01-23 12:21:38) [INFO    ] Response: 0x7f3c500021f0 /software/version 200 0
+(2024-01-23 12:22:31) [INFO    ] Request: 120.85.196.184:6406 0x7f3c50003930 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:22:31) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:31) [INFO    ] Response: 0x7f3c50003930 /video/getUser 500 1
+(2024-01-23 12:22:32) [INFO    ] Request: 120.85.196.184:6407 0x7f3c500021f0 HTTP/1.1 POST /alarm/live
+(2024-01-23 12:22:32) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:32) [INFO    ] Response: 0x7f3c500021f0 /alarm/live 500 1
+(2024-01-23 12:22:38) [INFO    ] Request: 120.85.196.184:6418 0x7f3c50003930 HTTP/1.1 POST /access
+(2024-01-23 12:22:38) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:38) [INFO    ] Response: 0x7f3c50003930 /access 500 1
+(2024-01-23 12:22:40) [INFO    ] Request: 120.85.196.184:6420 0x7f3c500021f0 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:22:40) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:40) [INFO    ] Response: 0x7f3c500021f0 /video/getUser 500 1
+(2024-01-23 12:22:41) [INFO    ] Request: 120.85.196.184:6424 0x7f3c50003930 HTTP/1.1 POST /face/all
+(2024-01-23 12:22:41) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:41) [INFO    ] Response: 0x7f3c50003930 /face/all 500 1
+(2024-01-23 12:22:43) [INFO    ] Request: 120.85.196.184:6460 0x7f3c500021f0 HTTP/1.1 POST /user/logout
+(2024-01-23 12:22:43) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:43) [INFO    ] Response: 0x7f3c500021f0 /user/logout 500 1
+(2024-01-23 12:22:48) [INFO    ] Request: 120.85.196.184:6473 0x7f3c50003930 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:22:48) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:48) [INFO    ] Response: 0x7f3c50003930 /video/getUser 500 1
+(2024-01-23 12:22:51) [INFO    ] Request: 120.85.196.184:6487 0x7f3c500021f0 HTTP/1.1 POST /user/login
+Username: admin, Password: admin
+查询username and password sqlQuery: SELECT * FROM user WHERE username = 'admin' AND password = 'admin'
+[2024-01-23 12:22:51.383] [console] [debug] sql: SELECT * FROM user WHERE username = 'admin' AND password = 'admin'
+SQL Exception1: Lost connection to MySQL server during query
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-23 12:22:52.634] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-23 12:22:52.634] [console] [debug] Database Username: root
+[2024-01-23 12:22:52.634] [console] [debug] Database Password: Admin@123
+[2024-01-23 12:22:52.634] [console] [debug] Software Version: 1.0.0
+[2024-01-23 12:22:52.634] [console] [debug] Software Token: 1
+[2024-01-23 12:22:52.634] [console] [debug] Software appPort: 1212
+[2024-01-23 12:22:52.634] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-23 12:22:52) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-23 12:22:52) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-23 12:22:58) [INFO    ] Request: 120.85.196.184:6523 0x5563fe796d90 HTTP/1.1 POST /video/getUser
+(2024-01-23 12:22:58) [ERROR   ] An uncaught exception occurred: value is not string
+(2024-01-23 12:22:58) [INFO    ] Response: 0x5563fe796d90 /video/getUser 500 1
+(2024-01-23 12:23:01) [INFO    ] Request: 120.85.196.184:6533 0x7f8710000bc0 HTTP/1.1 POST /user/login
+Username: admin, Password: admin
+查询username and password sqlQuery: SELECT * FROM user WHERE username = 'admin' AND password = 'admin'
+[2024-01-23 12:23:01.391] [console] [debug] sql: SELECT * FROM user WHERE username = 'admin' AND password = 'admin'
+(2024-01-23 12:23:01) [INFO    ] Response: 0x7f8710000bc0 /user/login 200 1
+(2024-01-23 12:23:02) [INFO    ] Request: 120.85.196.184:6536 0x7f87100021f0 HTTP/1.1 POST /face/all
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:23:02.221] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-23 12:23:02.230] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:23:02) [INFO    ] Response: 0x7f87100021f0 /face/all 200 1
+(2024-01-23 12:23:06) [INFO    ] Request: 120.85.196.184:6566 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:23:06.367] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:23:06.394] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:23:06) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:23:14) [INFO    ] Request: 120.85.196.184:6625 0x7f87100021f0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:23:14.910] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:23:14.915] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:23:14) [INFO    ] Response: 0x7f87100021f0 /video/getUser 200 1
+(2024-01-23 12:23:15) [INFO    ] Request: 120.85.196.184:6642 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:23:15.786] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:23:15.795] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:23:15) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:23:16) [INFO    ] Request: 120.85.196.184:6664 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:23:16.533] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:23:16.545] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:23:16) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:25:27) [INFO    ] Request: 120.85.196.184:6271 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:25:27.694] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:25:27.709] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:25:27) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:25:28) [INFO    ] Request: 120.85.196.184:6272 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:25:28.527] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:25:28.538] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:25:28) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:26:12) [INFO    ] Request: 120.85.196.184:6399 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:26:12.663] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:26:12.672] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:26:12) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:27:12) [INFO    ] Request: 120.85.196.184:6811 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:27:12.094] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:27:12.118] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:27:12) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:27:24) [INFO    ] Request: 120.85.196.184:6870 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:27:24.775] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:27:24.792] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:27:24) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:27:32) [INFO    ] Request: 120.85.196.184:7018 0x7f87100021f0 HTTP/1.1 POST /access
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:27:32.411] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-23 12:27:32.426] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:27:32) [INFO    ] Response: 0x7f87100021f0 /access 200 1
+(2024-01-23 12:27:34) [INFO    ] Request: 120.85.196.184:7025 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:27:34.436] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-23 12:27:34.466] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:27:34) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:27:36) [INFO    ] Request: 120.85.196.184:7030 0x7f87100021f0 HTTP/1.1 POST /face/all
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:27:36.090] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-23 12:27:36.098] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:27:36) [INFO    ] Response: 0x7f87100021f0 /face/all 200 1
+(2024-01-23 12:27:48) [INFO    ] Request: 120.85.196.184:7108 0x7f8710000bc0 HTTP/1.1 POST /face/all
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:27:48.367] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-23 12:27:48.379] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:27:48) [INFO    ] Response: 0x7f8710000bc0 /face/all 200 1
+(2024-01-23 12:28:14) [INFO    ] Request: 120.85.196.184:6160 0x7f87100021f0 HTTP/1.1 POST /face/all
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:28:14.254] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-23 12:28:14.300] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:28:14) [INFO    ] Response: 0x7f87100021f0 /face/all 200 1
+(2024-01-23 12:29:10) [INFO    ] Request: 120.85.196.184:6313 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:29:10.415] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:29:10.429] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:29:10) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:29:20) [INFO    ] Request: 120.85.196.184:6331 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:29:20.771] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:29:20.791] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:29:20) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:29:34) [INFO    ] Request: 120.85.196.184:6351 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:29:34.478] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-23 12:29:34.487] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:29:34) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:29:34) [INFO    ] Request: 120.85.196.184:6352 0x7f87100021f0 HTTP/1.1 POST /face/all
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:29:34.886] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-23 12:29:34.911] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:29:34) [INFO    ] Response: 0x7f87100021f0 /face/all 200 1
+(2024-01-23 12:29:45) [INFO    ] Request: 120.85.196.184:6382 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:29:45.575] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:29:45.609] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:29:45) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:29:50) [INFO    ] Request: 120.85.196.184:6390 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+(2024-01-23 12:29:50) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:29:58) [INFO    ] Request: 120.85.196.184:6413 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:29:58.404] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:29:58.430] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:29:58) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:30:00) [INFO    ] Request: 120.85.196.184:6427 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:00.855] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1 AND name = 'zhansan'
+[2024-01-23 12:30:00.889] [console] [debug] sql: SELECT * FROM alarm where 1=1 AND name = 'zhansan' order by id desc  LIMIT 0,10
+(2024-01-23 12:30:00) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:30:02) [INFO    ] Request: 120.85.196.184:6242 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:02.522] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:30:02.563] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:30:02) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:30:05) [INFO    ] Request: 120.85.196.184:6444 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:05.920] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:30:05.937] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 10,10
+(2024-01-23 12:30:05) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:30:07) [INFO    ] Request: 120.85.196.184:6459 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:07.502] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:30:07.526] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 20,10
+(2024-01-23 12:30:07) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:30:08) [INFO    ] Request: 120.85.196.184:6460 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:08.520] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:30:08.546] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 30,10
+(2024-01-23 12:30:08) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:30:09) [INFO    ] Request: 120.85.196.184:6462 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:09.588] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:30:09.599] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 40,10
+(2024-01-23 12:30:09) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:30:14) [INFO    ] Request: 120.85.196.184:6468 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:14.612] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:30:14.625] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 40,10
+(2024-01-23 12:30:14) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:30:51) [INFO    ] Request: 120.85.196.184:6545 0x7f8710000bc0 HTTP/1.1 POST /face/all
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:30:51.628] [console] [debug] sql: SELECT count(*) as count FROM faceInfo where 1=1
+[2024-01-23 12:30:51.669] [console] [debug] sql: SELECT * FROM faceInfo where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:30:51) [INFO    ] Response: 0x7f8710000bc0 /face/all 200 1
+(2024-01-23 12:32:33) [INFO    ] Request: 120.85.196.184:6971 0x7f87100021f0 HTTP/1.1 POST /access
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:32:33.707] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-23 12:32:33.723] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:32:33) [INFO    ] Response: 0x7f87100021f0 /access 200 1
+(2024-01-23 12:32:44) [INFO    ] Request: 120.85.196.184:7007 0x7f8710000bc0 HTTP/1.1 POST /access
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:32:44.939] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-23 12:32:44.964] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:32:44) [INFO    ] Response: 0x7f8710000bc0 /access 200 1
+(2024-01-23 12:32:47) [INFO    ] Request: 120.85.196.184:7014 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:32:47.197] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:32:47.224] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:32:47) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 12:34:17) [INFO    ] Request: 120.85.196.184:6360 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:34:17.911] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:34:17.978] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:34:17) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 12:38:17) [INFO    ] Request: 120.85.196.184:6359 0x7f87100021f0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:38:17.143] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:38:17.157] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:38:17) [INFO    ] Response: 0x7f87100021f0 /video/getUser 200 1
+(2024-01-23 12:38:22) [INFO    ] Request: 120.85.196.184:6397 0x7f8710000bc0 HTTP/1.1 POST /alarm/update
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+(2024-01-23 12:38:22) [ERROR   ] An uncaught exception occurred: cannot find key
+(2024-01-23 12:38:22) [INFO    ] Response: 0x7f8710000bc0 /alarm/update 500 1
+(2024-01-23 12:40:12) [INFO    ] Request: 120.85.196.184:6874 0x7f87100021f0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:40:12.643] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:40:12.659] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:40:12) [INFO    ] Response: 0x7f87100021f0 /video/getUser 200 1
+(2024-01-23 12:40:22) [INFO    ] Request: 120.85.196.184:6893 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:40:22.455] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:40:22.460] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:40:22) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:40:36) [INFO    ] Request: 120.85.196.184:6927 0x7f87100021f0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:40:36.707] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:40:36.713] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:40:36) [INFO    ] Response: 0x7f87100021f0 /video/getUser 200 1
+(2024-01-23 12:41:02) [INFO    ] Request: 120.85.196.184:7129 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:41:02.104] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:41:02.114] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:41:02) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:41:05) [INFO    ] Request: 120.85.196.184:6174 0x7f87100021f0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:41:05.638] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:41:05.644] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:41:05) [INFO    ] Response: 0x7f87100021f0 /video/getUser 200 1
+(2024-01-23 12:41:39) [INFO    ] Request: 120.85.196.184:6432 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:41:39.988] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:41:40.006] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:41:40) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:47:30) [INFO    ] Request: 120.85.196.184:7080 0x7f87100021f0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:47:30.405] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 12:47:30.416] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 12:47:30) [INFO    ] Response: 0x7f87100021f0 /video/getUser 200 1
+(2024-01-23 12:58:07) [INFO    ] Request: 120.85.196.184:7088 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:58:07.247] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1
+[2024-01-23 12:58:07.277] [console] [debug] sql: SELECT * FROM user WHERE 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:58:07) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 12:58:07) [INFO    ] Request: 120.85.196.184:7089 0x7f87100021f0 HTTP/1.1 POST /access
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:58:07.632] [console] [debug] sql: SELECT count(*) as count FROM accessSource where 1=1
+[2024-01-23 12:58:07.657] [console] [debug] sql: SELECT * FROM accessSource where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:58:07) [INFO    ] Response: 0x7f87100021f0 /access 200 1
+(2024-01-23 12:58:08) [INFO    ] Request: 120.85.196.184:7092 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 12:58:08.610] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 12:58:08.638] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 12:58:08) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 13:01:45) [INFO    ] Request: 120.85.196.184:7083 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 13:01:45.742] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 13:01:45.763] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 13:01:45) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 13:02:25) [INFO    ] Request: 120.85.196.184:6201 0x7f8710000bc0 HTTP/1.1 POST /video/getUser
+token: m5Uu7Jx9n0wGlfWAnXxMLUPwRqOx2jAZ
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 13:02:26.000] [console] [debug] sql: SELECT count(*) as count FROM user  WHERE 1=1 AND username = 'admin'
+[2024-01-23 13:02:26.011] [console] [debug] sql: SELECT * FROM user WHERE 1=1 AND username = 'admin' order by id desc  LIMIT 0,10
+(2024-01-23 13:02:26) [INFO    ] Response: 0x7f8710000bc0 /video/getUser 200 1
+(2024-01-23 13:02:26) [INFO    ] Request: 120.85.196.184:6203 0x7f87100021f0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 13:02:26.855] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 13:02:26.867] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 13:02:26) [INFO    ] Response: 0x7f87100021f0 /alarm/live 200 1
+(2024-01-23 13:02:37) [INFO    ] Request: 120.85.196.184:6210 0x7f8710000bc0 HTTP/1.1 POST /alarm/live
+invalidTokens: 0
+validTokens: 1
+[2024-01-23 13:02:37.026] [console] [debug] sql: SELECT count(*) as count FROM alarm where 1=1
+[2024-01-23 13:02:37.052] [console] [debug] sql: SELECT * FROM alarm where 1=1 order by id desc  LIMIT 0,10
+(2024-01-23 13:02:37) [INFO    ] Response: 0x7f8710000bc0 /alarm/live 200 1
+(2024-01-23 15:15:51) [INFO    ] Exiting.
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-23 15:16:30.188] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-23 15:16:30.188] [console] [debug] Database Username: root
+[2024-01-23 15:16:30.188] [console] [debug] Database Password: Admin@123
+[2024-01-23 15:16:30.188] [console] [debug] Software Version: 1.0.0
+[2024-01-23 15:16:30.188] [console] [debug] Software Token: 1
+[2024-01-23 15:16:30.188] [console] [debug] Software appPort: 1212
+[2024-01-23 15:16:30.188] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-23 15:16:30) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-23 15:16:30) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-23 15:16:51.447] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-23 15:16:51.447] [console] [debug] Database Username: root
+[2024-01-23 15:16:51.447] [console] [debug] Database Password: Admin@123
+[2024-01-23 15:16:51.447] [console] [debug] Software Version: 1.0.0
+[2024-01-23 15:16:51.447] [console] [debug] Software Token: 1
+[2024-01-23 15:16:51.447] [console] [debug] Software appPort: 1212
+[2024-01-23 15:16:51.447] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-23 15:16:51) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-23 15:16:51) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-23 15:17:13) [INFO    ] Exiting.
