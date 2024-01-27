@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS test;
+CREATE DATABASE IF NOT EXISTS face_database CHARACTER SET utf8mb4 COLLATE test;
 USE test;
 
 -- Create access source table
