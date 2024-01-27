@@ -2,7 +2,7 @@
 #include <mysql_connection.h>
 #include <cppconn/statement.h>
 #include <cppconn/resultset.h>
-#include <cstdlib> 
+#include <cstdlib>
 
 #include <iostream>
 #include <crow.h>
@@ -94,31 +94,37 @@ unsigned char *base64_encode(const char *str0)
     return res;
 }
 
-int common_shell(const std::string& path, const std::string& name) {
+int common_shell(const std::string &path, const std::string &name)
+{
     // 检查路径和名称是否为空
-    if (path.empty() || name.empty()) {
+    if (path.empty() || name.empty())
+    {
         std::cout << "Invalid path or name." << std::endl;
         return -1;
     }
-    
+
     // 构建Shell命令
     std::string command = "curl --location 'http://127.0.0.1:9876/addface' \
 --header 'Content-Type: application/json' \
---data '{\"path\":\"" + path + "\",\"name\":\"" + name + "\"}'";
+--data '{\"path\":\"" + path +
+                          "\",\"name\":\"" + name + "\"}'";
     std::cout << "curl command." << command << std::endl;
-    
+
     // 创建C风格的字符串
-    const char* cmd = command.c_str();
+    const char *cmd = command.c_str();
 
     // 调用Shell命令
     int result = system(cmd);
 
     // 检查命令是否成功执行
-    if (WIFEXITED(result) && WEXITSTATUS(result) == 0) {
+    if (WIFEXITED(result) && WEXITSTATUS(result) == 0)
+    {
         // 命令执行成功
         // 进行后续处理
         std::cout << "Command executed successfully." << std::endl;
-    } else {
+    }
+    else
+    {
         // 命令执行失败
         // 进行错误处理
         std::cout << "Command execution failed." << std::endl;
@@ -914,15 +920,17 @@ crow::json::wvalue addFaceinfoHandle(const crow::request &req)
         response_json["msg"] = "data does not exist";
     }
 
-
     std::string url = image;
     size_t slashPos = std::string::npos; // 初始化为无效位置
-    int count = 0; // 计数器
+    int count = 0;                       // 计数器
 
-    for (size_t i = 0; i < url.length(); i++) {
-        if (url[i] == '/') {
+    for (size_t i = 0; i < url.length(); i++)
+    {
+        if (url[i] == '/')
+        {
             count++;
-            if (count == 3) {
+            if (count == 3)
+            {
                 slashPos = i;
                 break;
             }
@@ -931,12 +939,13 @@ crow::json::wvalue addFaceinfoHandle(const crow::request &req)
 
     // 截取从第三个斜杠位置开始的子字符串
     std::string path;
-    if (slashPos != std::string::npos) {
+    if (slashPos != std::string::npos)
+    {
         path = url.substr(slashPos);
     }
 
     std::cout << "剪切出来的路径: " << path << std::endl;
-    common_shell("nginx" + path,name);
+    common_shell("nginx" + path, name);
     return response_json;
 }
 
@@ -1210,8 +1219,8 @@ crow::json::wvalue showAllFaceInfoHandler(const crow::request &req)
     return response_json;
 }
 
-std::string  frequency = "2";
-std::string  threshold = "0.5";
+std::string frequency = "2";
+std::string threshold = "0.5";
 // get threshold，频率
 crow::json::wvalue getvalueHandler(const crow::request &req)
 {
@@ -1260,6 +1269,59 @@ crow::json::wvalue getvalueHandler(const crow::request &req)
     return response_json;
 }
 
+// get alarm level
+crow::json::wvalue getAlarmlevel(const crow::request &req)
+{
+    // 解析请求数据
+    auto json = crow::json::load(req.body);
+    // 返回数据
+    crow::json::wvalue response_json;
+    // 检查是否成功解析JSON数据
+    if (!json)
+    {
+        crow::json::wvalue response_json;
+        response_json["rescode"] = 0;
+        response_json["msg"] = "Invalid JSON";
+        return response_json;
+    }
+    // 接受参数
+    std::string token;
+
+    // 获取token
+    try
+    {
+        token = json["token"].s();
+    }
+    catch (const std::exception &e)
+    {
+        response_json["rescode"] = 0;
+        response_json["msg"] = "参数错误";
+        return response_json;
+    }
+    // print token
+    std::cout << "token: " << token << std::endl;
+    if (!validateToken(token))
+    {
+        response_json["rescode"] = 0;
+        response_json["msg"] = "token error";
+        return response_json;
+    }
+
+    std::string sqlQuery = "select * from alarmlevel";
+    sql::ResultSet *res = executeQuery(sqlQuery);
+    for (int i = 0; res->next(); i++)
+    {
+        response_json["face"][i]["facetype"] = res->getString("facetype");
+        response_json["face"][i]["alarmlevel"] = res->getString("alarmlevel");
+    }
+
+    response_json["rescode"] = 1;
+    response_json["msg"] = "success";
+    response_json["threshold"] = threshold;
+    response_json["frequency"] = frequency;
+
+    return response_json;
+}
 // 设置阈值 frequency
 crow::json::wvalue setvalueHandler(const crow::request &req)
 {
@@ -1309,6 +1371,78 @@ crow::json::wvalue setvalueHandler(const crow::request &req)
     response_json["msg"] = "set success";
     response_json["threshold"] = threshold;
     response_json["frequency"] = frequency;
+    return response_json;
+}
+
+// 设置alarm level
+crow::json::wvalue setAlarmlevel(const crow::request &req)
+{
+    // 解析请求数据
+    auto json = crow::json::load(req.body);
+    // 返回数据
+    crow::json::wvalue response_json;
+    // 检查是否成功解析JSON数据
+    if (!json)
+    {
+        crow::json::wvalue response_json;
+        response_json["rescode"] = 0;
+        response_json["msg"] = "Invalid JSON";
+        return response_json;
+    }
+    // 接受参数
+    std::string token;
+    std::string alarmlevel;
+    std::string facetype;
+
+    // 获取token
+    try
+    {
+        token = json["token"].s();
+        alarmlevel = json["alarmlevel"].s();
+        facetype = json["facetype"].s();
+    }
+    catch (const std::exception &e)
+    {
+        std::cout << "设置alarmlevel facetype" << e.what() << std::endl;
+        response_json["rescode"] = 0;
+        response_json["msg"] = "参数错误";
+        return response_json;
+    }
+    // print token
+    std::cout << "token: " << token << std::endl;
+    if (!validateToken(token))
+    {
+        response_json["rescode"] = 0;
+        response_json["msg"] = "token error";
+        return response_json;
+    }
+    std::cout << "设置alarmlevel facetype" << threshold << std::endl;
+
+    std::string sqlQuery = "UPDATE alarmlevel SET alarmlevel = '" + alarmlevel + "' WHERE facetype = '" + facetype + "';";
+    try
+    {
+        sql::ResultSet *res = executeQuery(sqlQuery);
+
+        if (!res)
+        {
+            response_json["rescode"] = 1;
+            response_json["msg"] = "success";
+        }
+        else
+        {
+            response_json["rescode"] = 0;
+            response_json["msg"] = "fail";
+        }
+
+        delete res;
+    }
+    catch (const std::exception &e)
+    {
+        std::cout << "update user Exception: " << e.what() << std::endl;
+        response_json["rescode"] = 0;
+        response_json["msg"] = "data error";
+    }
+
     return response_json;
 }
 // 查询所有告警
@@ -2152,9 +2286,16 @@ int main()
     // 初始化 http
     crow::SimpleApp app;
     // 路由
+
     // upload img
     CROW_ROUTE(app, "/upload").methods("POST"_method)([](const crow::request &req)
                                                       { return crow::response{uploadImageHandler(req)}; });
+    // set alarm level
+    CROW_ROUTE(app, "/setalarmlevel").methods("POST"_method)([](const crow::request &req)
+                                                      { return crow::response{setAlarmlevel(req)}; });
+    // get alarm level
+    CROW_ROUTE(app, "/getalarmlevel").methods("POST"_method)([](const crow::request &req)
+                                                      { return crow::response{getAlarmlevel(req)}; });
     // 获取阈值和频率
     CROW_ROUTE(app, "/software/getinfo").methods("POST"_method)([](const crow::request &req)
                                                                 { return crow::response{getvalueHandler(req)}; });

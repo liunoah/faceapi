@@ -84,3 +84,17 @@ VALUES
 ('abcdefg12345', '987654321abcdefg', 'John Doe', '1234567890', 'ABC Company', 'Manager', 'http://example.com/image1.jpg','admin','admin','admin'),
 ('hijklm67890', '54321mlkjih', 'Jane Smith', '0987654321', 'XYZ Corporation', 'Engineer', 'http://example.com/image2.jpg','whitelist','user1','pass1'),
 ('qwerty12345', '54321ytrewq', '张三', '身份证', '人事部', '经理', 'http://example.com/image3.jpg','黑名单','user2','2222');
+
+
+CREATE TABLE alarmlevel (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    facetype VARCHAR(255),
+    alarmlevel VARCHAR(255)
+);
+
+INSERT INTO alarmlevel (facetype,alarmlevel)
+VALUES
+('黑名单', '严重警告'),
+('白名单', '普通警告'),
+('临时人员', '一般警告'),
+('未知人员', '重要警告');
