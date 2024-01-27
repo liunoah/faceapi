@@ -3728,3 +3728,26 @@ Connected to MySQL SUCCESS!
 (2024-01-23 15:16:51) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
 (2024-01-23 15:16:51) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
 (2024-01-23 15:17:13) [INFO    ] Exiting.
+testProject is not running. Starting...
+Database Host: tcp://localhost:3306/test
+Database Username: root
+Database Password: Admin@123
+Software Version: 1.0.0
+Software Token: 1
+Software appPort: 1212
+log level: debug
+[2024-01-27 14:38:55.527] [console] [debug] Database Host: tcp://localhost:3306/test
+[2024-01-27 14:38:55.527] [console] [debug] Database Username: root
+[2024-01-27 14:38:55.528] [console] [debug] Database Password: Admin@123
+[2024-01-27 14:38:55.528] [console] [debug] Software Version: 1.0.0
+[2024-01-27 14:38:55.528] [console] [debug] Software Token: 1
+[2024-01-27 14:38:55.528] [console] [debug] Software appPort: 1212
+[2024-01-27 14:38:55.528] [console] [debug] log level: debug
+Connected to MySQL SUCCESS!
+(2024-01-27 14:38:55) [INFO    ] Crow/1.0 server is running at http://0.0.0.0:1212 using 4 threads
+(2024-01-27 14:38:55) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2024-01-27 14:44:59) [INFO    ] Request: 1.193.171.218:1051 0x55bf5537a910 HTTP/1.1 POST /getalarmlevel
+token: 63ECvH1p3KQkz2VJted208moFTQ5AGCu
+invalidTokens: 0
+validTokens: 0
+(2024-01-27 14:44:59) [INFO    ] Response: 0x55bf5537a910 /getalarmlevel 200 0
